@@ -37,80 +37,43 @@ pQuickSortStack PushQuickSortStack(pQuickSortStack head, int left, int right){
 int SortOneEle(int *arr, int start, int end)
 {
 
-    int key = arr[start];
-    int left = end, right = start;
+    //int key = arr[start];
+    int left = start, right = end;
 
-    //printf("right = %d left = %d\n", right, left);
+    //对数组arr[left, right)排序，由于数组元素大于1时才需要排序，故right > left + 1
+    int key, i;
+    while(right > left + 1){
+        key = arr[left];//需要移动key，使得key的左边小，右边大
 
-    // 从后往前遍利，找第一个比key小的位置
-    for (int i = end - 1; i > start; i--)
-    {
-        if (arr[i] < key)
-        {
-            right = i;
-            arr[start] = arr[i];
-            arr[i] = key;
-            break;
-        }
-    }
-
-    //从前往后遍历，找第一个比key大的位置
-    int j = 0;
-    for (j = start; j < right; j++)
-    {
-        if (arr[j] > key)
-        {
-            //left = i;
-            arr[right] = arr[j];
-            arr[j] = key;
-            break;
-        }
-    }
-    left = j;
-
-    // printf("right = %d left = %d\n", right, left);
-    // for(int i = start; i < end; i++){
-    //     printf("%d ", arr[i]);
-    // }
-    // printf("\n\n");
-
-    //int t_start = left;
-    int l;
-    while (right > left + 1)
-    {
-
-        //left = right;
-        for ( l = right - 1; l > left; l--)
-        {
-            if (arr[l] < key)
-            {
-                arr[left] = arr[l];
-                arr[l] = key;
+        // 从后往前遍利，找第一个比key小的位置
+        for(i = right - 1; i > left; i--){
+            if(arr[i] < key){
+                //若key > arr[i]，交换两个元素，break，i为交换的指标
+                arr[left] = arr[i];
+                arr[i] = key;
                 break;
             }
         }
-        right = l;
+        right = i;//考虑边界条件，right = left,即，arr[j] >= arr[left]，考虑接下来的循环代码，其实是不执行的
+        //从而返回指标left
 
-
-        for (j = left; j < right; j++)
-        {
-            if (arr[j] > key){
-                //left = i;
-                arr[right] = arr[j];
-                arr[j] = key;
+        //从前往后遍历，找第一个比key大的位置，注意，此时经过上个循环后，只需要比较arr[left+1, right-1]与key的值，right为更新后的值
+        //考虑边界条件right = left时，即，不需要比较，left值不需要变化，可以从arr[left]比较
+        for(i = left; i < right; i++){
+            if(arr[i] > key){
+                arr[right] = arr[i];
+                arr[i] = key;
                 break;
             }
         }
-        left = j;
-        // printf("right = %d left = %d\n", right, left);
+        left = i;
 
-        // for(int i = start; i < end; i++){
-        //      printf("%d ", arr[i]);
-        // }
-        // printf("\n\n");
+
     }
 
+    //更新right, left为次完整循环，循环完成后，原来的Key值(即最开始的arr[left])放在了更行后的left处
     return left;
+
 
 }
 
