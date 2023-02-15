@@ -8,9 +8,9 @@ int SortOneEle(int *arr, int start, int end)
 {
 
     int key = arr[start];
-    int left = start, right = start;
+    int left = end, right = start;
 
-    printf("right = %d left = %d\n", right, left);
+    //printf("right = %d left = %d\n", right, left);
 
     // 从后往前遍利，找第一个比key小的位置
     for (int i = end - 1; i > start; i--)
@@ -25,21 +25,30 @@ int SortOneEle(int *arr, int start, int end)
     }
 
     //从前往后遍历，找第一个比key大的位置
-    for (int i = start + 1; i < right; i++)
+    int j = 0;
+    for (j = start; j < right; j++)
     {
-        if (arr[i] > key)
+        if (arr[j] > key)
         {
-            left = i;
-            arr[right] = arr[i];
-            arr[i] = key;
+            //left = i;
+            arr[right] = arr[j];
+            arr[j] = key;
             break;
         }
     }
+    left = j;
 
-    printf("right = %d left = %d\n", right, left);
+    // printf("right = %d left = %d\n", right, left);
+    // for(int i = start; i < end; i++){
+    //     printf("%d ", arr[i]);
+    // }
+    // printf("\n\n");
+
+    //int t_start = left;
 
     while (right > left + 1)
     {
+        //left = right;
         for (int i = right - 1; i > left; i--)
         {
             if (arr[i] < key)
@@ -52,16 +61,22 @@ int SortOneEle(int *arr, int start, int end)
         }
 
 
-        for (int i = left + 1; i < right; i++)
+        for (j = left + 1; j < right; j++)
         {
-            if (arr[i] > key){
-                left = i;
-                arr[right] = arr[i];
-                arr[i] = key;
+            if (arr[j] > key){
+                //left = i;
+                arr[right] = arr[j];
+                arr[j] = key;
                 break;
             }
         }
-        printf("right = %d left = %d\n", right, left);
+        left = j;
+        // printf("right = %d left = %d\n", right, left);
+
+        // for(int i = start; i < end; i++){
+        //      printf("%d ", arr[i]);
+        // }
+        // printf("\n\n");
     }
 
     return left;
