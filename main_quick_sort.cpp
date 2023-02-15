@@ -75,23 +75,24 @@ int SortOneEle(int *arr, int start, int end)
     // printf("\n\n");
 
     //int t_start = left;
-
+    int l;
     while (right > left + 1)
     {
+
         //left = right;
-        for (int i = right - 1; i > left; i--)
+        for ( l = right - 1; l > left; l--)
         {
-            if (arr[i] < key)
+            if (arr[l] < key)
             {
-                right = i;
-                arr[left] = arr[i];
-                arr[i] = key;
+                arr[left] = arr[l];
+                arr[l] = key;
                 break;
             }
         }
+        right = l;
 
 
-        for (j = left + 1; j < right; j++)
+        for (j = left; j < right; j++)
         {
             if (arr[j] > key){
                 //left = i;
@@ -126,7 +127,7 @@ void QuickSort(int *arr, int start, int end){
     head->next = NULL;
 
     int left,right, index;
-
+    int check_cnt = 1;
     do{
         //出栈[a,b)
         left = head->left;
@@ -134,6 +135,16 @@ void QuickSort(int *arr, int start, int end){
         head = PopQuickSortStack(head);
         //寻找index
         index = SortOneEle(arr, left, right);
+
+        printf("no %d inf: index = %d\n", check_cnt, index);
+        for(int i = start; i < end; i++){
+            printf("%d ", arr[i]);
+        }
+
+        printf("\n\n");
+        check_cnt++;
+
+
         //将[index + 1, b)入栈
         if(right > index + 2){
             head = PushQuickSortStack(head, index + 1, right);
@@ -225,6 +236,8 @@ int main(){
     //printf("test\n");
     //TestSortOneEle();
     TestQuickSort();
+
+    printf("b branch");
 
     return 0;
 }
