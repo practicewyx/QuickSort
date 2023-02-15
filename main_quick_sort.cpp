@@ -239,5 +239,7 @@ int main(){
 
     printf("b branch");
 
+    printf("test merger");
+
     return 0;
 }
