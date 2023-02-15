@@ -1,5 +1,35 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+typedef struct QuickSortStack{
+    int left;
+    int right;
+    struct QuickSortStack* next;
+}QuickSortStack, *pQuickSortStack;
+
+//此弹出操作要确保head非空
+pQuickSortStack PopQuickSortStack(pQuickSortStack head){
+
+    pQuickSortStack t;
+
+    t = head->next;
+
+    free(head);
+
+    return t;
+
+}
+
+//压入操作需要确保head已经初始化（或者非空或者head = NULL）
+pQuickSortStack PushQuickSortStack(pQuickSortStack head, int left, int right){
+    pQuickSortStack t;
+    t = (pQuickSortStack)malloc(sizeof(QuickSortStack));
+    t->left = left;
+    t->right = right;
+    t->next = head;
+
+    return t;
+}
 /*
 对数组arr[start, end）操作，移动第一个元素的位置，使得其左边小，右边大，返回该位置
 这里要确保 end > start+1
@@ -83,6 +113,40 @@ int SortOneEle(int *arr, int start, int end)
 
 }
 
+void QuickSort(int *arr, int start, int end){
+    //初始化一个栈[start, end)
+    //数组至少要有两个元素
+    if(start + 1 >= end){
+        return;
+    }
+    pQuickSortStack head;
+    head = (pQuickSortStack)malloc(sizeof(QuickSortStack));
+    head->left = start;
+    head->right = end;
+    head->next = NULL;
+
+    int left,right, index;
+
+    do{
+        //出栈[a,b)
+        left = head->left;
+        right = head->right;
+        head = PopQuickSortStack(head);
+        //寻找index
+        index = SortOneEle(arr, left, right);
+        //将[index + 1, b)入栈
+        if(right > index + 2){
+            head = PushQuickSortStack(head, index + 1, right);
+        }
+
+        //将[a,index)入栈
+        if(index > left + 1){
+            head = PushQuickSortStack(head, left, index);
+        }
+
+    }while(head != NULL);
+}
+
 void TestSortOneEle(){
 
     int a[100] = {0};
@@ -127,9 +191,40 @@ void TestSortOneEle(){
     
 
 }
+
+void TestQuickSort(){
+    int a[100] = {0};
+    int cnt = 0;
+
+    printf("input: ");
+    while(scanf("%d", &a[cnt])){
+        cnt++;
+    }
+
+    printf("cnt = %d\n", cnt);
+
+    QuickSort(a, 0, cnt);
+    printf("output: ");
+    for(int i = 0; i < cnt; i++){
+        printf("%d ", a[i]);
+    }
+    printf("\n");
+
+    int flag = 1;
+    for(int i = 0; i < cnt - 1; i++){
+        if(a[i] > a[i+1]){
+            flag = 0;
+            break;
+        }
+    }
+    printf("flag = %d\n", flag);
+}
+
+
 int main(){
     //printf("test\n");
-    TestSortOneEle();
+    //TestSortOneEle();
+    TestQuickSort();
 
     return 0;
 }
