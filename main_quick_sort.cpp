@@ -90,7 +90,7 @@ void QuickSort(int *arr, int start, int end){
     head->next = NULL;
 
     int left,right, index;
-    int check_cnt = 1;
+    //int check_cnt = 1;
     do{
         //出栈[a,b)
         left = head->left;
@@ -99,13 +99,13 @@ void QuickSort(int *arr, int start, int end){
         //寻找index
         index = SortOneEle(arr, left, right);
 
-        printf("no %d inf: index = %d\n", check_cnt, index);
-        for(int i = start; i < end; i++){
-            printf("%d ", arr[i]);
-        }
+        // printf("no %d inf: index = %d\n", check_cnt, index);
+        // for(int i = start; i < end; i++){
+        //     printf("%d ", arr[i]);
+        // }
 
-        printf("\n\n");
-        check_cnt++;
+        //printf("\n\n");
+        //check_cnt++;
 
 
         //将[index + 1, b)入栈
@@ -121,50 +121,6 @@ void QuickSort(int *arr, int start, int end){
     }while(head != NULL);
 }
 
-void TestSortOneEle(){
-
-    int a[100] = {0};
-    int cnt = 0;
-
-    printf("input: ");
-    while(scanf("%d", &a[cnt])){
-        cnt++;
-    }
-
-    printf("cnt = %d\n", cnt);
-
-    int index = SortOneEle(a, 0, cnt);
-
-    printf("index = %d\n", index);
-
-    printf("output: ");
-
-    for(int i = 0; i < cnt; i++){
-        printf("%d ", a[i]);
-    }
-    printf("\n");
-
-    int flag = 1;
-
-    for(int i = 0; i < index; i++){
-        if(a[i] > a[index]){
-            flag = 0;
-            break;
-        }
-    }
-
-    for(int i = index + 1; i < cnt; i++){
-        if(a[i] < a[index]){
-            flag = 1;
-            break;
-        }
-    }
-
-    printf("flag = %d\n", flag);
-
-    
-
-}
 
 void TestQuickSort(){
     int a[100] = {0};
