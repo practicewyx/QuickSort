@@ -240,7 +240,7 @@ int main(){
     printf("b branch");
 
     printf("test merger");
-    printf("git push");
+    //printf("git push");
 
     return 0;
 }
