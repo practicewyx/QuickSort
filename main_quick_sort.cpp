@@ -8,7 +8,7 @@ int SortOneEle(int *arr, int start, int end)
 {
 
     int key = arr[start];
-    int left = end, right = start;
+    int left = start, right = start;
 
     // 从后往前遍利，找第一个比key小的位置
     for (int i = end - 1; i > start; i--)
@@ -60,10 +60,34 @@ int SortOneEle(int *arr, int start, int end)
         }
     }
 
-    return right;
+    return left;
+
+}
+
+void TestSortOneEle(){
+
+    int a[100] = {0};
+    int cnt = 0;
+
+    printf("input: ");
+    while(scanf("%d", &a[cnt])){
+        cnt++;
+    }
+
+    printf("cnt = %d\n", cnt);
+    printf("output: ");
+
+    for(int i = 0; i < cnt; i++){
+        printf("%d ", a[i]);
+    }
+    printf("\n");
+
+    
 
 }
 int main(){
-    printf("test\n");
+    //printf("test\n");
+    TestSortOneEle();
+
     return 0;
 }
