@@ -47,15 +47,9 @@ python3 .github/workflows/check.py
 
 The following are all models included in this project.
 
-<style>
-	table {
-   	 margin: auto;
-	}
-</style>
-
 <table>
     <tr>
-        vision
+        <td>vision
     </tr>
     <tr>
         <td>Net Class</td>
@@ -64,6 +58,15 @@ The following are all models included in this project.
         <td>mlir</td>
     </tr>
 </table>
+
+<style>
+	table {
+   	 margin: auto;
+	}
+</style>
+
+
+
 
 
 
