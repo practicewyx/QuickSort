@@ -54,7 +54,7 @@ python3 .github/workflows/check.py
 
 <table>
     <tr>
-        <td></td><td>vision</td><td></td>
+        <td></td><td>vision</td><td colspan="2"></td>
     </tr>
     <tr>
         <td>Net Class</td>
