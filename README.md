@@ -45,8 +45,13 @@ python3 .github/workflows/check.py
 
 ## Model statistics table
 
-The following are all models included in this project.
+ The following are all models included in this project.
 
+            vision
+|Net Class|Net Name|nntc|mlir|
+|:--:|:--:|:--:|:--:|
+|1|2|3|4|
+<!--
 <table>
     <tr>
         <td>vision</td>
@@ -61,7 +66,9 @@ The following are all models included in this project.
 
 [nntc](https://www.runoob.com/markdown/md-link.html)
 
-[runoob]: http://www.runoob.com/
+[runoob]: http://www.runoob.com/ -->
+
+
 
 
 
