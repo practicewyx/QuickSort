@@ -59,7 +59,7 @@ python3 .github/workflows/check.py
     <tr>
         <td>Net Class</td>
         <td>Net Name</td>
-        <td>href="https://www.runoob.com/markdown/md-link.html"nntc</td>
+        <td><a href="https://www.runoob.com/markdown/md-link.html">nntc </td>
         <td>mlir</td>
     </tr>
 </table>
