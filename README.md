@@ -53,7 +53,9 @@ python3 .github/workflows/check.py
 |1|2|3|4|
 
 <table>
-    <caption>vision</caption>
+    <tr>
+        <td></td><td>vision</td><td></td>
+    </tr>
     <tr>
         <td>Net Class</td>
         <td>Net Name</td>
