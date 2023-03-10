@@ -54,7 +54,7 @@ The following are all models included in this project.
     <tr>
         <td>Net Class</td>
         <td>Net Name</td>
-        <td>nntc</td>
+        <td>[nntc](https://blog.csdn.net/dream_summer/article/details/110822636)</td>
         <td>mlir</td>
     </tr>
 </table>
