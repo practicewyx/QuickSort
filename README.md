@@ -60,207 +60,80 @@ python3 .github/workflows/check.py
         <td>mlir</td>
     </tr>
 </table>
-<table>
-    <caption>lagauage</caption>
-    <tr>
-        <td>Net Class</td>
-        <td>Net Name</td>
-        <td><a href="https://www.runoob.com/markdown/md-link.html">nntc </td>
-        <td>mlir</td>
-    </tr>
-</table>
 
-<table border=0 cellpadding=0 cellspacing=0 width=484 style='border-collapse:
- collapse;table-layout:fixed;width:364pt'>
- <col width=121 span=4 style='mso-width-source:userset;mso-width-alt:4295;
- width:91pt'>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td colspan=4 height=48 class=xl6330422 width=484 style='height:36.0pt;
-  width:364pt'>vision</td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl6330422 style='height:36.0pt'>Net Class</td>
-  <td class=xl6330422>Net Name</td>
-  <td class=xl6330422>nntc</td>
-  <td class=xl6330422>mlir</td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl6330422 style='height:36.0pt'>OCR</td>
-  <td class=xl6330422><a href="https://github.com/practicewyx/QuickSort/blob/main1/README.md">CRNN</td>
-  <td class=xl6330422>*</td>
-  <td class=xl6330422>*</td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <tr height=48 style='mso-height-source:userset;height:36.0pt'>
-  <td height=48 class=xl1530422 style='height:36.0pt'></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
-  <td class=xl1530422></td>
- </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
-  <td width=121 style='width:91pt'></td>
-  <td width=121 style='width:91pt'></td>
-  <td width=121 style='width:91pt'></td>
-  <td width=121 style='width:91pt'></td>
- </tr>
- <![endif]>
-</table>
+
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="model_list3.files/filelist.xml">
+<style id="model_list_30422_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font530422
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.xl1530422
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6530422
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;}
+-->
+</style>
+</head>
 
 <div id="model_list_30422" align=center x:publishsource="Excel">
 
