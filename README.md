@@ -47,30 +47,15 @@ python3 .github/workflows/check.py
 
 The following are all models included in this project.
 
-<!-- |vision|||
-|:--:|:--:|:--:|
+<style>
+	table {
+   	 margin: auto;
+	}
+</style>
 
 <table>
     <tr>
-        <td>行1列1</td> 
-        <td>行1列2</td> 
-        <td>行1列3</td> 
-   </tr>
-    <tr>
-  		<td>行2列1</td> 
-        <td>行2列2</td> 
-        <td>行2列3</td> 
-    </tr>
-    <tr>
-        <td>行3列1</td> 
-        <td>行3列2</td> 
-        <td>行3列3</td> 
-    </tr>
-</table> -->
-
-<table>
-    <tr>
-        <td>vision</td>
+        vision
     </tr>
     <tr>
         <td>Net Class</td>
