@@ -47,15 +47,21 @@ python3 .github/workflows/check.py
 
  The following are all models included in this project.
 
-        vision
 |Net Class|Net Name|nntc|mlir|
 |:--:|:--:|:--:|:--:|
 |1|2|3|4|
 
 <table>
+    <caption>vision</caption>
     <tr>
-        <td>vision</td>
+        <td>Net Class</td>
+        <td>Net Name</td>
+        <td><a href="https://www.runoob.com/markdown/md-link.html">nntc </td>
+        <td>mlir</td>
     </tr>
+</table>
+<table>
+    <caption>lagauage</caption>
     <tr>
         <td>Net Class</td>
         <td>Net Name</td>
@@ -64,13 +70,12 @@ python3 .github/workflows/check.py
     </tr>
 </table>
 
-[nntc](https://www.runoob.com/markdown/md-link.html)
-
 <table border=0 cellpadding=0 cellspacing=0 width=484 style='border-collapse:
  collapse;table-layout:fixed;width:364pt'>
  <col width=121 span=4 style='mso-width-source:userset;mso-width-alt:4295;
  width:91pt'>
  <tr height=48 style='mso-height-source:userset;height:36.0pt'>
+ <caption>vision</caption>
   <td colspan=4 height=48 class=xl6330422 width=484 style='height:36.0pt;
   width:364pt'>vision</td>
  </tr>
