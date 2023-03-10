@@ -49,7 +49,7 @@ The following are all models included in this project.
 
 <table>
     <tr>
-        <td>vision
+        vision
     </tr>
     <tr>
         <td>Net Class</td>
