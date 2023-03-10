@@ -82,7 +82,7 @@ python3 .github/workflows/check.py
  </tr>
  <tr height=48 style='mso-height-source:userset;height:36.0pt'>
   <td height=48 class=xl6330422 style='height:36.0pt'>OCR</td>
-  <td class=xl6330422>CRNN</td>
+  <td class=xl6330422><a href="https://github.com/practicewyx/QuickSort/blob/main1/README.md">CRNN</td>
   <td class=xl6330422>*</td>
   <td class=xl6330422>*</td>
  </tr>
