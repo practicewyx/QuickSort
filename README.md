@@ -47,11 +47,6 @@ python3 .github/workflows/check.py
 
  The following are all models included in this project.
 
-|vision||||
-|:--:|:--:|:--:|:--:|
-|Net Class|Net Name|nntc|mlir|
-|1|2|3|4|
-
 <table>
     <tr>
         <td colspan="4"> <img width=100/>vision</td>
@@ -63,10 +58,10 @@ python3 .github/workflows/check.py
         <td>mlir</td>
     </tr>
     <tr>
-        <td>Net Class</td>
-        <td>Net Name</td>
-        <td><a href="https://www.runoob.com/markdown/md-link.html">nntc</td>
-        <td>mlir</td>
+        <td>GAN</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/GAN/cyclegan">cyclegan_horse2zebra</td>
+        <td>*</td>
+        <td></td>
     </tr>
 </table>
 
