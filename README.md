@@ -387,6 +387,79 @@ python3 .github/workflows/check.py
         <td>*</td>
         <td></td>
     </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/scrfd">scrfd</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/ssd-mobilenet">ssd-mobilenet</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/ssd-resnet34">ssd-resnet34</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/ultralytics-yolov3">ultralytics-yolov3</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/vggssd_300">vggssd_300</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/yoloface">yoloface</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/yolov3-torch">yolov3-torch</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/yolov3_320">yolov3_320</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/yolov3_608">yolov3_608</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/yolov3_spp">yolov3_spp</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/yolov3_tiny">yolov3_tiny</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/yolov5">yolov5</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+
 
 
 </table>
