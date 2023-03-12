@@ -135,7 +135,133 @@ python3 .github/workflows/check.py
         <td>*</td>
         <td></td>
     </tr>
-    
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/HRNet-Torch">HRNet </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/InceptionBN-21k-for-Caffe">Inception_v2 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/LeNet">LeNet </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v1">MobileNet_v1 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v2">MobileNet_v2 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v3">MobileNet_v3 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNeXt">ResNeXt</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNeXt50">ResNeXt50</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNet34">ResNet34</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNet50-Caffe">ResNet-50</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNet50_vd_paddle">ResNet50-vd</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/SqueezeNet">SqueezeNet</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/dpn68">Dpn68</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/efficientnet-lite4">EfficientNet-Lite4</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/efficientnetv2">EfficientNetV2</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_resnet_v2">Inception-resnet-v2</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v1">Inception_v1</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v3">Inception_v3</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v4">Inception_v4</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/mm_resnet50">mm_resnet50</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/mm_resnet50">mm_resnet50</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+
 
 
 </table>
