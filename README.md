@@ -54,12 +54,12 @@ python3 .github/workflows/check.py
     <tr>
         <td>Net Class</td>
         <td>Net Name</td>
-        <td><a href="https://www.runoob.com/markdown/md-link.html">nntc </td>
+        <td>nntc </td>
         <td>mlir</td>
     </tr>
     <tr>
         <td>GAN</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/GAN/cyclegan">cyclegan_horse2zebra</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/GAN/cyclegan">cyclegan</td>
         <td>*</td>
         <td></td>
     </tr>
@@ -71,37 +71,37 @@ python3 .github/workflows/check.py
     </tr>
     <tr>
         <td>OCR</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3cls">ch-PP-OCRv3-Direction classifier</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3cls">PP-OCRv3cls</td>
         <td>*</td>
         <td>*</td>
     </tr>
     <tr>
         <td>OCR</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3det">ch-PP-OCRv3-Detection </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3det">PP-OCRv3det</td>
         <td>*</td>
         <td>*</td>
     </tr>
     <tr>
         <td>OCR</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3rec">ch-PP-OCRv3-Recognition </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3rec">PP-OCRv3rec </td>
         <td>*</td>
         <td>*</td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/AlexNet-Caffe">AlexNet </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/AlexNet-Caffe">AlexNet-Caffe</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/DenseNet-Caffe">DenseNet </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/DenseNet-Caffe">DenseNet-Caffe</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ECANet-Torch">ECANet </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ECANet-Torch">ECANet-Torch</td>
         <td>*</td>
         <td></td>
     </tr>
@@ -137,13 +137,13 @@ python3 .github/workflows/check.py
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/HRNet-Torch">HRNet </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/HRNet-Torch">HRNet-Torch</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/InceptionBN-21k-for-Caffe">Inception_v2 </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/InceptionBN-21k-for-Caffe">InceptionBN-21k-for-Caffe</td>
         <td>*</td>
         <td></td>
     </tr>
@@ -155,19 +155,19 @@ python3 .github/workflows/check.py
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v1">MobileNet_v1 </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v1">MobileNet-Caffe-v1</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v2">MobileNet_v2 </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v2">MobileNet-Caffe-v2</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v3">MobileNet_v3 </td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/MobileNet-Caffe-v3">MobileNet-Caffe-v3</td>
         <td>*</td>
         <td></td>
     </tr>
@@ -191,13 +191,13 @@ python3 .github/workflows/check.py
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNet50-Caffe">ResNet-50</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNet50-Caffe">ResNet50-Caffe</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNet50_vd_paddle">ResNet50-vd</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ResNet50_vd_paddle">ResNet50_vd_paddle</td>
         <td></td>
         <td>*</td>
     </tr>
@@ -209,43 +209,43 @@ python3 .github/workflows/check.py
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/dpn68">Dpn68</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/dpn68">dpn68</td>
         <td>*</td>
         <td>*</td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/efficientnet-lite4">EfficientNet-Lite4</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/efficientnet-lite4">efficientnet-lite4</td>
         <td></td>
         <td>*</td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/efficientnetv2">EfficientNetV2</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/efficientnetv2">efficientnetv2</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_resnet_v2">Inception-resnet-v2</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_resnet_v2">inception_resnet_v2</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v1">Inception_v1</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v1">inception_v1</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v3">Inception_v3</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v3">inception_v3</td>
         <td>*</td>
         <td></td>
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v4">Inception_v4</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/inception_v4">inception_v4</td>
         <td>*</td>
         <td>*</td>
     </tr>
@@ -257,11 +257,70 @@ python3 .github/workflows/check.py
     </tr>
     <tr>
         <td>classification</td>
-        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/mm_resnet50">mm_resnet50</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/mobilenet-v2">mobilenet-v2</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/resnet18-v2">resnet18-v2</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/resnet50-v2">resnet50-v2</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/shufflenet_v2">shufflenet_v2</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/shufflenet_v2_torch">shufflenet_v2_torch</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/squeezenet1.0">squeezenet1.0</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/vgg11-torch">vgg11-torch</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/vgg16">vgg16</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/vgg19">vgg19</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/wrn50">wrn50</td>
         <td>*</td>
         <td>*</td>
     </tr>
-
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/xception">xception</td>
+        <td>*</td>
+        <td></td>
+    </tr>
 
 
 </table>
