@@ -459,6 +459,81 @@ python3 .github/workflows/check.py
         <td>*</td>
         <td>*</td>
     </tr>
+    <tr>
+        <td>pose-estimation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/pose-estimation/openpose">openpose</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>recognition</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/recognition/arcface">arcface  </td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>recognition</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/recognition/facenet">facenet</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>reid</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/reid/market_bot_R50">market_bot_R50</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/ERFNet-Caffe">ERFNet-Caffe</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/deeplabv3p">deeplabv3p</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/mobileseg-mlir">mobileseg-mlir</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/mobileseg">mobileseg</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/paddle_humansegv1_lite">paddle_humansegv1_lite</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/pp-humanseg">pp-humanseg</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/pp_liteseg">pp_liteseg</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>segmentation</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/segmentation/unet_plusplus">unet_plusplus</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+
+
+
 
 
 
