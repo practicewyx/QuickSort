@@ -49,7 +49,7 @@ python3 .github/workflows/check.py
 
 <table>
     <tr>
-        <td colspan="4"> <img width=100/>vision</td>
+        <td colspan="4"> <img width=200/>vision</td>
     </tr>
     <tr>
         <td>Net Class</td>
