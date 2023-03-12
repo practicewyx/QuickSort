@@ -567,9 +567,45 @@ python3 .github/workflows/check.py
         <td>*</td>
         <td></td>
     </tr>
-
-
-
+    <tr>
+        <td colspan="4"> <img width=200/>language</td>
+    </tr>
+    <tr>
+        <td>asr</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/language/asr/conformer">conformer</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>nlp</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/language/nlp/GRU">GRU</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>nlp</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/language/nlp/bert">bert</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>nlp</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/language/nlp/bert_paddle">bert_paddle</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>nlp</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/language/nlp/mobilebert_tflite">mobilebert_tflite</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>translate</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/language/translate/opus-mt-zh-en">opus-mt-zh-en</td>
+        <td>*</td>
+        <td></td>
+    </tr>
 
 
 </table>
