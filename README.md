@@ -531,7 +531,42 @@ python3 .github/workflows/check.py
         <td>*</td>
         <td></td>
     </tr>
-
+    <tr>
+        <td>super-resolution</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/super-resolution/SRCNN">SRCNN</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>super-resolution</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/super-resolution/VDSR">VDSR</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>tracking</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/tracking/GOTURN-Caffe">GOTURN-Caffe</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>tracking</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/tracking/MDNet-Torch">MDNet-Torch</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>tracking</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/tracking/SiamMask-Torch">SiamMask-Torch</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>video-recognition</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/video-recognition/C3D">C3D</td>
+        <td>*</td>
+        <td></td>
+    </tr>
 
 
 
