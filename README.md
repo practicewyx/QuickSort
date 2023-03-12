@@ -43,7 +43,7 @@ markdownlint '**/*.md'
 python3 .github/workflows/check.py
 ```
 
-## Model statistics table
+## Model navigation table
 
  The following are all models included in this project.
 
