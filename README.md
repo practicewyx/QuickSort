@@ -321,6 +321,72 @@ python3 .github/workflows/check.py
         <td>*</td>
         <td></td>
     </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/CenterNet-Torch">CenterNet-Torch</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/Yet-Another-EfficientDet-Pytorch">Yet-Another-EfficientDet-Pytorch</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/keras-yolo3">keras-yolo3</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/mtcnn">mtcnn</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/pp-picodet">pp-picodet</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/ppyolo">ppyolo</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/ppyoloe">ppyoloe</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/ppyolov3">ppyolov3</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/ppyolox">ppyolox</td>
+        <td></td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/py-R-FCN">py-R-FCN</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>detection</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/detection/retinaface">retinaface</td>
+        <td>*</td>
+        <td></td>
+    </tr>
 
 
 </table>
