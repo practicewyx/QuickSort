@@ -47,19 +47,25 @@ python3 .github/workflows/check.py
 
  The following are all models included in this project.
 
-||vision|||
+|vision||||
 |:--:|:--:|:--:|:--:|
 |Net Class|Net Name|nntc|mlir|
 |1|2|3|4|
 
 <table>
     <tr>
-        <td colspan="4"> ---------vision--------------</td>
+        <td colspan="4"> <img width=100/>vision</td>
     </tr>
     <tr>
         <td>Net Class</td>
         <td>Net Name</td>
         <td><a href="https://www.runoob.com/markdown/md-link.html">nntc </td>
+        <td>mlir</td>
+    </tr>
+    <tr>
+        <td>Net Class</td>
+        <td>Net Name</td>
+        <td><a href="https://www.runoob.com/markdown/md-link.html">nntc</td>
         <td>mlir</td>
     </tr>
 </table>
