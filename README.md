@@ -63,5 +63,80 @@ python3 .github/workflows/check.py
         <td>*</td>
         <td></td>
     </tr>
+    <tr>
+        <td>OCR</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/CRNN">CRNN</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>OCR</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3cls">ch-PP-OCRv3-Direction classifier</td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>OCR</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3det">ch-PP-OCRv3-Detection </td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>OCR</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/OCR/PP-OCRv3rec">ch-PP-OCRv3-Recognition </td>
+        <td>*</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/AlexNet-Caffe">AlexNet </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/DenseNet-Caffe">DenseNet </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/ECANet-Torch">ECANet </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/EfficientNet-B0">EfficientNet-B0 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/EfficientNet-B1">EfficientNet-B1 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/EfficientNet-B4">EfficientNet-B4 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/EfficientNet-B5">EfficientNet-B5 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>classification</td>
+        <td><a href="https://github.com/sophgo/model-zoo/tree/main/vision/classification/EfficientNet-B7">EfficientNet-B7 </td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    
+
+
 </table>
 
