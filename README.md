@@ -47,6 +47,18 @@ python3 .github/workflows/check.py
 
  The following are all models included in this project.
 
+ <table>
+ <tr>
+        <td colspan="4"> <img width=200/>vision</td>
+    </tr>
+    <tr>
+        <td>Net Class</td>
+        <td>Net Name</td>
+        <td>nntc </td>
+        <td>mlir</td>
+    </tr>
+ </table>
+
 <table>
     <tr>
         <td colspan="4"> <img width=200/>vision</td>
