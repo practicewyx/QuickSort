@@ -45,6 +45,8 @@ python3 .github/workflows/check.py
 
 ## Model navigation table
 
+:white_check_mark:
+
  The following are all models included in this project.
 
  <table>
